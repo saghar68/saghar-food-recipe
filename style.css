@@ -173,22 +173,29 @@ h1.heading-text{
 
 
 @media screen and (max-width:768px){
-  div , section , main {
-    max-width:100% !important;
-    box-sizing:border-box;
-  }
-  .img-list {
-    width:220px !important;
-    height:auto !important;
-    position:static !important;
-    margin:20px auto !important;
-    display:block !important;
-  }
-  .step-img{
-    width:220px !important;
-    height:auto !important;
-    position:static !important;
-    margin:20 auto !important;
-    display:block !important;
-  }
+    div, section, main {
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .img-list {
+        width: 150px !important;      
+        height: 150px !important;
+        position: relative !important; 
+        top: 0 !important;
+        left: 0 !important;
+        display: block !important;
+        margin: 10px auto 20px auto !important; 
+    }
+
+    .img-step, img[alt="chef"] + img { 
+        width: 150px !important;
+        height: 150px !important;
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        display: block !important;
+        margin: 20px auto !important;
+    }
+
 }
