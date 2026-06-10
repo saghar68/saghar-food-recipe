@@ -15,6 +15,8 @@ body {
 h1.heading-text{
     display:inline-block;
     font-size:50px !important;
+    color:#777777 !important;
+    font-family:katakana-iroha;
     background-color:#DCE7C5;
     padding: 20px;
     border-radius: 20px;
@@ -40,6 +42,8 @@ h1.heading-text{
 
 .text-section{
   background-color:pink;
+  color:#777777;
+  font-family:katakana-iroha;
   width:90%;
   margin-left:auto;
   margin-right:auto;
@@ -57,6 +61,7 @@ h1.heading-text{
 }
 .container header h1{
   font-size:30px;
+  font-family:katakana-iroha;
   color:#333333;
 }
 
@@ -70,6 +75,7 @@ h1.heading-text{
 
 .text2-section{
     font-size:16px;
+    font-family:katakana-iroha;
     text-align: justify;
     max-width: 800px;
     margin: 30px auto;
@@ -88,25 +94,34 @@ h1.heading-text{
     margin-bottom:30px;
     margin-top: 40px;
     height:700px;
+    
+  
 }
 
 .recipe-heading{
     font-size:28px;
-    color:#333333;
-
+    color:#666666;
+    font-family:katakana-iroha;
+    text-align:center;
     padding-top:20px;
-    text-align: left;
     margin-top: 40px;
     margin-bottom: -50px;
+}
+
+.recipe-step{
+  font-size:30px;
+  font-family:katakana-iroha;
+  color:#CCFF99;
 }
 
 .recipe-list{
     list-style-type:square;
     font-size:20px;
+    font-family:katakana-iroha;
     color:#555555;
     text-align:left;
     padding-top: 100px;
-    padding-left:20px;
+    padding-left:100px;
     
     
 }
@@ -117,7 +132,9 @@ h1.heading-text{
     border-radius: 50%;
     position: relative;
     top: -300px;
-    left:300px;
+    left:350px;
+  
+  
   
 }
 
@@ -138,6 +155,7 @@ h1.heading-text{
 .step-list{
     list-style-type:decimal;
     font-size:20px;
+    font-family:katakana-iroha;
     color:#373131;
     text-align:left;
     padding-top: 20px;
@@ -151,4 +169,19 @@ h1.heading-text{
     top: 50px;
     left:250px;
     border-radius: 50%;
+}
+
+
+@media screen and (max-width:768px){
+  .img-list {
+    width:250px;
+    position:static;
+    margin:20px auto;
+    display:block;
+  }
+  .step-img{
+    width:95%;
+    padding:15px;
+    margin:0 auto;
+  }
 }
