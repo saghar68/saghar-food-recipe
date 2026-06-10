@@ -173,27 +173,38 @@ h1.heading-text{
 
 
 @media screen and (max-width:768px){
-    div, section, main {
+   div, section, main {
         height: auto !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
+        display: flex !important;
+        flex-direction: column !important; ‌
+        align-items: center !important;
     }
 
-‌
+    ul, ol, p {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 0 25px !important;
+        list-style-position: inside !important; ‌
+    }
+
     .step-img {
-        width: 160px !important;      
-        height: 160px !important;
-        position: static !important;  
-        margin: 15px auto !important; 
+        width: 180px !important;
+        height: 180px !important;
+        position: static !important; ‌ ‌
+        margin: 15px auto !important; ‌
         display: block !important;
     }
 
-    .img_food {
-        width: 160px !important;
-        height: 160px !important;
+
+    div img, section img {
+        width: 180px !important;
+        height: 180px !important;
         position: static !important;
         margin: 15px auto !important;
         display: block !important;
+        border-radius: 50% !important;
     }
 
 }
