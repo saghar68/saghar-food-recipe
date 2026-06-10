@@ -1,0 +1,154 @@
+body {
+  font-family: system-ui;
+  background:#EFEFEF;
+  color:black;
+  text-align: center;
+}
+
+*{
+  box-sizing : border-box;
+  margin : 0;
+  padding: 0;   
+}
+
+
+h1.heading-text{
+    display:inline-block;
+    font-size:50px !important;
+    background-color:#DCE7C5;
+    padding: 20px;
+    border-radius: 20px;
+    width:80%;
+    margin-top:10px;
+  
+}
+
+
+.recipe-img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:90%;
+  width:500px;
+  height:auto;
+  border-radius:12px;
+  margin-top:30px;
+  margin-bottom:30px;
+ 
+  
+}
+
+.text-section{
+  background-color:pink;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:30px;
+}
+
+
+.container header{
+  background-color:#F9F9F9;
+  padding:2px;
+  border-radius:12px;
+  margin-bottom: 30px;
+}
+.container header h1{
+  font-size:30px;
+  color:#333333;
+}
+
+.container main{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  gap:20px;
+}
+
+
+.text2-section{
+    font-size:16px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 30px auto;
+    color:#4a4a4a;
+    line-height:1.8;
+
+}
+
+.sample-section{
+    background-color:rgb(216, 201, 241);
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    height:700px;
+}
+
+.recipe-heading{
+    font-size:28px;
+    color:#333333;
+
+    padding-top:20px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+
+.recipe-list{
+    list-style-type:square;
+    font-size:20px;
+    color:#555555;
+    text-align:left;
+    padding-top: 100px;
+    padding-left:20px;
+    
+    
+}
+
+.img-list{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -300px;
+    left:300px;
+  
+}
+
+.step-section{
+    background-color:rgb(87, 117, 99);
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    height:900px;
+}
+
+
+
+.step-list{
+    list-style-type:decimal;
+    font-size:20px;
+    color:#373131;
+    text-align:left;
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+.step-img {
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left:250px;
+    border-radius: 50%;
+}
